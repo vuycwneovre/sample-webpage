@@ -1,23 +1,80 @@
+* {
+    margin:0;
+    padding:0;
+}
+
 .header {
     display: flex;
     font-size: 18px;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
+    background-color: #1F2937;
+    padding-top: 10px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 100px;
 }
-
 .logo {
     display: flex;
     font-size: 24px;
+    color: #f9faf8;
 }
-
 .right-links {
     display: flex;
     justify-items: right;
     align-items: center;
+    color: #f9faf8;
 }
-
 ul {
     display: flex;
     list-style-type: none;
     align-items: center;
-  }
+    gap: 10px;
+}
+
+
+.main {
+    display: flex;
+    align-items: center;  
+    background-color: #1F2937;  
+    justify-content: flex-start;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 100px;
+}
+.left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title {
+    font-size: 48px;
+    display: flex;
+    font-weight: bold;
+    color: #f9faf8;
+    text-align: left;
+}
+.subtitle {
+    display: flex;
+    font-size: 18px;
+    color: #e5e7fb;
+}
+.right {
+    display: flex;
+    align-items: center;
+}
+.sign-up {
+    display: flex;
+    font-size: 18px;
+    background-color: #3882F6;
+    color: #e5e7fb;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+img {
+    padding-left: 40px;
+    max-width: 800px;
+    max-height: 500px;
+}
